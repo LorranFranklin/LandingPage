@@ -147,19 +147,23 @@ section .img img {
 }
 
 /* Form arquivo css da pagina reserva */
+.contato,
 .reserva {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
 }
 
+.contato h3,
 .reserva h3 {
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 700;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
+.contato form,
 .reserva form {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -168,6 +172,8 @@ section .img img {
   margin: 0 auto;
 }
 
+.contato form input, 
+.contato form textarea,
 .reserva form input, 
 .reserva form textarea {
   width: 100%;
@@ -177,7 +183,9 @@ section .img img {
   font-size: 1.1rem;
 }
 
-.reserva button {
+.reserva button,
+.contato button {
+  width: 100%;
   padding: 1rem;
   border: none;
   border-radius: 5px;
@@ -188,3 +196,4 @@ section .img img {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
 }
+
